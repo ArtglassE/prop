@@ -12,9 +12,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("img/backpage.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color:rgba(0, 0, 0, 0.5)
 }
 
 @media only screen and (max-width: 1025px) {
@@ -188,7 +186,7 @@ body {
     top: 30px;
 }
 
-.portfolio-single {
+.portfolio-single a{
     display: flex;
     flex-direction: column;
     align-items: center;
