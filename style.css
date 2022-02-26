@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/backpage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-repeat: repeat-y;
+    }
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 50px 90px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header img {
+    width: 65%;
+}
+
+.diferencial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    padding: 50px 0;
+    background-color: rgb(0, 255, 226, 45%);
+}
+
+.diferencial-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+}
+
+.diferencial-single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 90px;
+}
+
+.diferencial-single img {
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .diferencial {
+        height: 150vh;
+    }
+
+    .diferencial-content {
+        top: 3%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .diferencial {
+        height: 100vh;
+    }
+
+    .diferencial-content {
+        top: 3%;
+    }
+
+    .diferencial-single {
+        margin: 20px 30px;
+    }
+
+    .diferencial-single img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    padding: 50px 90px;
+}
+
+.advantages-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+}
+
+.advantages-single {
+    margin: 20px 0;
+}
+
+.advantages-single img {
+    width: 400px;
+    height: 280px;
+}
+
+.advantages-single p{
+    margin: 0 170px;
+}
+
+@media only screen and (max-width: 700px) {
+    .advantages {
+        height: 95vh;
+    }
+
+    .advantages-content {
+        justify-content: center;
+        align-items: center;
+        top: 10%;
+    }
+
+    .advantages-single {
+        margin: 20px 0;
+    }
+
+    .advantages-single p{
+        margin: 0 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .advantages {
+        height: 90vh;
+        padding: 0 30px;
+    }
+
+    .advantages-single img {
+        width: 220px;
+        height: 150px;
+    }
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    padding: 50px 0;
+    background-color: rgb(0, 255, 226, 45%);
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.portfolio-single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 90px;
+}
+
+.portfolio-single img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .portfolio {
+        height: 160vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .portfolio-single {
+        margin: 20px 30px;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+
+footer p {
+    margin: 0 80px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 0 80px;
+}
+
+@media only screen and (max-width: 700px) {
+    footer {
+        flex-direction: column;
+        height: 20vh;
+    }
+
+    footer p {
+        margin-top: 10px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        margin: 0 0;
+    }
+}
