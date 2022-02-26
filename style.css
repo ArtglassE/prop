@@ -75,13 +75,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15px 90px;
+    margin: 15px 50px;
 }
 
 .diferencial-single img {
     border-radius: 100%;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     margin-bottom: 10px;
 }
 
@@ -100,7 +100,7 @@ body {
 @media only screen and (max-width: 400px) {
 
     .diferencial-content {
-        top: 3%;
+        top: 15px;
     }
 
     .diferencial-single {
