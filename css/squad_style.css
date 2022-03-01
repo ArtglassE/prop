@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Mono:wght@400;700&family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family : 'Raleway', sem serifa;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.nav-header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 255, 226, 45%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.nav-header nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-header h1 {
+    margin: 0 20px;
+    font-size: 1.8rem;
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    text-shadow: 1px 1px 1px black;
+}
+
+.nav-header h1:hover a{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-header ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+.nav-header li {
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+.nav-header a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-header a:hover{
+    text-decoration: none;
+}
+
+.content-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    height: 60vh;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.content-sobre h1{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.content-sobre p{
+    font-size: 1.3rem;
+    max-width: 900px;
+    text-align: justify;
+}
+
+.linhas-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+}
+
+.linhas-sobre li {
+    margin: 50px 50px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+
+.linhas-sobre a {
+    text-decoration: none;
+}
+
+.linhas-sobre li:hover {
+    transform: scale(1.3,1.3);
+    transition: 0.5s;
+}
+
+.linhas-sobre ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.linhas-sobre nav {
+    text-decoration: none;
+}

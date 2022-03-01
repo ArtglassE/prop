@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Mono:wght@400;700&family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family : 'Raleway', sem serifa;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.nav-header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 255, 226, 45%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.nav-header nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-header h1 {
+    margin: 0 20px;
+    font-size: 1.8rem;
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    text-shadow: 1px 1px 1px black;
+}
+
+.nav-header h1:hover a{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-header ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+.nav-header li {
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+.nav-header a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-header a:hover{
+    text-decoration: none;
+}
+
+.data-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    width: 100%;
+    height: 90vh;
+    background-color:grey;
+}
+
+.data-content h1{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.data-content p{
+    font-size: 1.3rem;
+    max-width: 900px;
+    text-align: justify;
+}
+
+.data-content img{
+    margin: 20px 0;
+    width: 300px;
+    height: 300px;
+}
+
+hr {
+    margin: 40px 0;
+    border-top: dashed 4px;
+    border-bottom: none;
+    width: 30%;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-single {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px 20px 30px;
+}
+
+.portfolio-single img {
+    width: 300px;
+    height: 300px;
+}
+
+.portfolio-single:hover {
+    transform: scale(1.5,1.5);
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
